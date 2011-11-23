@@ -1,0 +1,19 @@
+s3fs (1.61-1ppa1~lucid1.1) lucid; urgency=high
+
+  * Non-maintainer upload.
+  * Fixed memory leak 
+
+ -- root <root@puppetmaster.lizearle.com>  Wed, 23 Nov 2011 11:39:05 +0000
+
+s3fs (1.59-1ppa1~lucid1) lucid; urgency=high
+
+  * New upstream release.
+
+ -- Dan Gardner <sysadmin@lizearle.com>  Wed, 09 Nov 2011 12:41:59 +0000
+
+s3fs (1.40-1ppa1~lucid1) lucid; urgency=low
+
+  * Initial release
+
+ -- Dan Gardner <sysadmin@lizearle.com>  Fri, 08 Jul 2011 12:20:57 +0100
+

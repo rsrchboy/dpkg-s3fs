@@ -1,0 +1,14 @@
+Source: s3fs
+Section: utils
+Priority: optional
+Maintainer: Matthew Hollick <sysadmin@lizearle.com>
+Build-Depends: dpatch, debhelper (>= 7), autotools-dev, libfuse-dev (>= 2.8.4), libcurl4-openssl-dev (>= 7.0), libxml2-dev (>= 2.6), libssl-dev (>= 0.9)
+Standards-Version: 3.9.1
+Homepage: http://code.google.com/p/s3fs/
+
+Package: s3fs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, fuse-utils, mime-support
+Description: FUSE-based file system backed by Amazon S3
+ FUSE-based file system backed by Amazon S3. Mount a bucket as a local file
+ system read/write. Store files/folders natively and transparently. 
