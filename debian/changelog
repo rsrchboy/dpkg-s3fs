@@ -1,3 +1,9 @@
+s3fs (1.67-1~ppa0~lucid1) lucid; urgency=low
+
+  * Imported Upstream version 1.67
+
+ -- Chris Weyl <cweyl@alumni.drew.edu>  Wed, 17 Apr 2013 14:25:56 -0700
+
 s3fs (1.61-1ppa1~lucid1.1) lucid; urgency=high
 
   * Non-maintainer upload.
